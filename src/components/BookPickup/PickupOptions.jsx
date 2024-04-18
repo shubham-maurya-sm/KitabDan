@@ -96,12 +96,12 @@ function PickupContainer() {
           We arrange Free pickups on a First come, First serve basis.
         </div>
         <div className="text-right py-3">
-          <a
-            href="/signUp"
+          <Link
+            to="/signUp"
             className="inline-block bg-blue-500 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded"
           >
             Proceed to Next
-          </a>
+          </Link>
         </div>
       </div>
     ),
@@ -208,12 +208,12 @@ function PickupContainer() {
           We arrange Free pickups on a First come, First serve basis.
         </div>
         <div className="text-right py-3">
-          <a
-            href="/signUp"
+          <Link
+            to="/signUp"
             className="inline-block bg-blue-500 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded"
           >
             Proceed to Next
-          </a>
+          </Link>
         </div>
       </div>
     ),
@@ -320,12 +320,12 @@ function PickupContainer() {
           in mind via our logistics partner only .
         </div>
         <div className="text-right py-3">
-          <a
-            href="/signUp"
+          <Link
+            to="/signUp"
             className="inline-block bg-blue-500 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded"
           >
             Proceed to Next
-          </a>
+          </Link>
         </div>
       </div>
     ),
