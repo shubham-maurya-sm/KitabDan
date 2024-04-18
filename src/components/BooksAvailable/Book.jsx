@@ -60,12 +60,12 @@ const Book = ({ bookDetails }) => {
         </div>
       </div>{" "}
       <div className="flex justify-between mt-2 mx-9">
-        <Link
+{/*         <Link
           className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 text-lg"
           to={"/book/details/" + id}
         >
           Details
-        </Link>
+        </Link> */}
         <button
           onClick={handleAddCart}
           className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 text-xl"
