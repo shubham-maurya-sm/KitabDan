@@ -107,7 +107,7 @@ const DonateNKnow = () => {
           className="inline-block bg-blue-500 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded"
         >
           Donate Your Loved One's
-        </a>
+        </Link>
       </div>
       {/* <div className="ml-10 mr-10 md:(ml-40 mr-40) py-6">
         <button
