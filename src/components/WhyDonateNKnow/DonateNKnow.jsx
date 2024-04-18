@@ -1,4 +1,5 @@
 import React from "react";
+import { Link} from "react-router-dom";
 import arrow from "../../assets/img/arrow.png";
 import whyDonate from "../../assets/img/whyDonate.jpg";
 import DidUKnow from "../../assets/img/DidUKnow.jpg";
@@ -101,8 +102,8 @@ const DonateNKnow = () => {
         </div>
       </div>
       <div className="text-center py-3">
-        <a
-          href="/city-available"
+        <Link
+          to="/city-available"
           className="inline-block bg-blue-500 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded"
         >
           Donate Your Loved One's
